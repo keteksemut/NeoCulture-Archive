@@ -14578,7 +14578,7 @@ __p+='`), U
 		async function DW() {
 			let {
 				Application: e
-			} = await import("https://unpkg.com/@splinetool/runtime/build/runtime.js");
+			} = await import("./65e049a04e387598693166f7/js/runtime.js");
 			Cu = e
 		}
 		var mi = new Map,
@@ -14671,11 +14671,11 @@ __p+='`), U
 
 			function f() {
 				var d = e('<a class="w-webflow-badge"></a>').attr("href", "https://webflow.com?utm_campaign=brandjs"),
-					p = e("<img>").attr("src", "https://d3e54v103j8qbb.cloudfront.net/img/webflow-badge-icon-d2.89e12c322e.svg").attr("alt", "").css({
+					p = e("<img>").attr("src", "./assets/img/webflow-badge-icon-d2.89e12c322e.svg").attr("alt", "").css({
 						marginRight: "4px",
 						width: "26px"
 					}),
-					g = e("<img>").attr("src", "https://d3e54v103j8qbb.cloudfront.net/img/webflow-badge-text-d2.c82cec3b78.svg").attr("alt", "Made in Webflow");
+					g = e("<img>").attr("src", "./assets/img/webflow-badge-text-d2.c82cec3b78.svg").attr("alt", "Made in Webflow");
 				return d.append(p, g), d[0]
 			}
 
