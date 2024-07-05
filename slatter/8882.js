@@ -2,7 +2,7 @@
 
 let music = new Howl({
   src: [
-    "https://cdn.jsdelivr.net/gh/madebykin/neocultural/healing-forest_Cut.mp3"
+    "./gh/madebykin/neocultural/healing-forest_Cut.mp3"
   ],
   loop: !0,
   html5: !0
