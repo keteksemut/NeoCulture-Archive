@@ -20901,7 +20901,7 @@ var nv;
 function I2() {
 	if (nv) return nv;
 	async function n() {
-		let e = !1 ? "." : "https://unpkg.com/@splinetool/navmesh-wasm@1.8.9/build",
+		let e = !1 ? "." : "./65e049a04e387598693166f7/js",
 			i = import("./navmesh.js"),
 			[s, o] = await Promise.all([i, fetch(`${e}/navmesh.wasm`).then(c => c.arrayBuffer())]),
 			a = s.default,
